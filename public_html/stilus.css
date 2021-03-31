@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+}
+
+body {
+    background: gray;
+}
+
+main, header, section, article, footer {
+    border: 1px solid gray;
+}
+
+article img {
+    width: 100%;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+
+article div {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nagykep img{
+    width: 100%;
+}
+
+#nagykep {
+    padding:10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
